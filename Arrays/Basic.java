@@ -13,6 +13,8 @@ public class Basic {
         // String fruits[] = {"Apple", "Banana", "Cherry"}; //size is 3
 
         //Giving or Tanking Input to an Array
+        System.out.println("Length of marks array: " + marks.length);
+
         Scanner sc = new Scanner(System.in);
         marks[0] = sc.nextInt();//Maths
         marks[1] = sc.nextInt();//Physics
@@ -33,6 +35,9 @@ public class Basic {
 
         marks[0] = marks[0] + 10;//Maths marks updated to 85 
         System.out.println("Updated Marks in Maths: " + marks[0]);
+
+
+
     }
 
 
